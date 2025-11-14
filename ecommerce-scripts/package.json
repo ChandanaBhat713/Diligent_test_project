@@ -1,0 +1,17 @@
+{
+  "name": "ecommerce-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "select": "node scripts/select_products.js",
+    "insert-user": "node scripts/insert_user.js",
+    "update-stock": "node scripts/update_product_stock.js",
+    "place-order": "node scripts/place_order_transaction.js",
+    "seed": "node scripts/seed_sample_data.js",
+    "test-db": "node scripts/test_connection.js"
+  },
+  "dependencies": {
+    "dotenv": "^x.x.x",
+    "mysql2": "^x.x.x"
+  }
+}
